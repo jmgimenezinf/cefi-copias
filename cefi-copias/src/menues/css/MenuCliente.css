@@ -1,0 +1,53 @@
+
+.logo img{
+   width: 200px;
+   float: center;
+    position: absolute;
+    top:4%;
+    right:43%;
+    -webkit-filter: drop-shadow( 7px -2px 7px white);
+}
+
+.MenuCliente-curva_menu{
+        -webkit-filter: drop-shadow( 0px 0px 15px rgb(0, 183, 254));
+        z-index: -9999;
+    }
+.MenuCliente-recta{
+    position:absolute;
+    top:0%;
+    right:0%; 
+    z-index:9999;
+}
+    
+.tabs .tab a {
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: color .28s ease;
+    opacity: 0.90;
+    padding: 11px;
+    width: 100%;
+    max-width: 99%;
+    background: rgba(0,0,0,0.1);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: 900;
+    border-radius:5px;
+    font-family: 'Fishfingers';
+    font-size: 24px;
+}
+@font-face
+{
+ font-family: 'Fishfingers';
+ src: url('../../fonts/fishfingers/Fishfingers.ttf');
+}
+.tabs .indicator {
+    color: #ffffff;
+}
+.tabs .no_display a {
+  background: rgba(0,0,0,0.0);
+}
