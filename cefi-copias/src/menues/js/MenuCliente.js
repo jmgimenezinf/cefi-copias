@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/cefi_logo.svg';
 import curva_menu from '../images/curva_menu.svg';
 import recta from '../images/recta.svg';
-import '../css/MenuCliente.css';
+import '../css/menu_cliente.css';
 import {Row, Col, Tabs, Tab} from 'react-materialize';
 
 class MenuCliente extends Component {
