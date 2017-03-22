@@ -2,8 +2,16 @@
 import React, { Component } from 'react';
 import {Row, Col,Tag} from 'react-materialize';
 
-const datos_tag= {
-    titulo:'un tag'
+function TagsList(props) {
+  const titulos = props.titulos;
+  const listItems = titulos.map((titulo) =>
+    <li key={titulo.toString()}>
+      <Tag>{titulo}</Tag>
+    </li>
+  );
+  return (
+    <ul>{listItems}</ul>
+  );
 }
 
 class Tags extends Component {
@@ -12,7 +20,7 @@ class Tags extends Component {
       <div className="Tag">
         <Row>
         <Col s={12}>
-            <Tag>{datos_tag.titulo}</Tag>
+            <TagsList titulos={this.props.listaTags}></TagsList>
         </Col>
         </Row>
       </div>
