@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Card,CardTitle} from 'react-materialize';
-import Tags from '/home/juan/Programacion/nodejs/cefi-copias-frontend/cefi-copias/src/componentes/js/Tags.js';
+import Tags from '../../componentes/js/Tags.js';
 
 class Documento extends Component {
   render() {  

@@ -1,30 +1,19 @@
 import React, { Component } from 'react';
 import Documento from './Documento';
-import {Row,Col,Tabs,Tab} from 'react-materialize';
-
-const arraytags = ["tag","otro tag"];
-
+import {Row,Col} from 'react-materialize';
+import Tabs from '../../componentes/js/Pestañas.js'
 class PanelDocumentos extends Component {
   render() {
-
     return (
-    <div className="PanelDocumentos">
+    <div class="container" className="PanelDocumentos">
         <Row>
-            
             <Col s={12}>
-                <Tabs className='tab-demo z-depth-2'>
-                    <Tab title="tab 1">tab 1 </Tab>
-                    <Tab title="tab 2" active>tab 2</Tab>
-                    <Tab title="tab 3">tab 3</Tab>
-                    <Tab title="tab 4">tab 4</Tab>
-                </Tabs>
+                <Col m={12} s={12}><Tabs/></Col>
+                <Col s={4} className='grid-example'><Documento  titulo="libro1" imagen="../images/pipi.png" tags={["tag","otro tag3"]}/></Col>
+                <Col s={4} className='grid-example'><Documento  titulo="libro2" imagen="/" tags={["matematica","fisica"]}/></Col>
+                <Col s={4} className='grid-example'><Documento  titulo="libro3" imagen="/" tags={["matematica","fisica","termodinamica"]}/></Col>
+                <Col s={4} className='grid-example'><Documento  titulo="libro4" imagen="/" tags={["naturales","quimica"]}/></Col>
             </Col>
-        </Row>
-        <Row>
-            <Col s={4} className='grid-example'><Documento  titulo="libro1" imagen="/" tags={arraytags}/></Col>
-            <Col s={4} className='grid-example'><Documento  titulo="libro2" imagen="/" tags={arraytags}/></Col>
-            <Col s={4} className='grid-example'><Documento  titulo="libro3" imagen="/" tags={arraytags}/></Col>
-            <Col s={4} className='grid-example'><Documento  titulo="libro4" imagen="/" tags={arraytags}/></Col>
         </Row>
     </div>
     );
