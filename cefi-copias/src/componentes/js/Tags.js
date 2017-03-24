@@ -26,7 +26,7 @@ class Tags extends Component {
       <div className="Tag">
         <Row>
         <Col s={12}>
-            <TagsList id="tags" titulos={this.props.listaTags}></TagsList>
+            <TagsList titulos={this.props.listaTags}></TagsList>
         </Col>
         </Row>
       </div>
