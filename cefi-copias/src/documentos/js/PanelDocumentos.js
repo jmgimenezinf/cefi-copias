@@ -1,31 +1,28 @@
 import React, { Component } from 'react';
-import Documento from './Documento';
-import {Row,Col,Container} from 'react-materialize';
-import Tabs from '../../componentes/js/TabsComponente.js'
-
-function lista(props) {
-  const titu= props.titu;
-  const listItems = titu.map((doc) =>
-    {doc}
-  );
-  return (
-    {listItems}
-  );
-}
-const elementos =[<Col s={4} className='grid-example'><Documento  titulo="libro1" imagen="../images/pipi.png" tags={["tag","otro tag3"]}/></Col>
-        ,
-        <Col s={4} className='grid-example'><Documento  titulo="libro1" imagen="../images/pipi.png" tags={["tag","otro tag3"]}/></Col>
-        ];
-const documentos = [
-    {titulo:"1",contenido: <lista titu="elementos"/>}
-]
+import {Row,Col,Pagination} from 'react-materialize';
+import CatalogoDocumentos from './CatalogoDocumentos';
 
 class PanelDocumentos extends Component {
+ constructor(props) {
+    super(props);
+    this.state = {indice:1};
+  }
+handleClickPage(e){
+ console.log(e);
+ this.setState({
+      indice:e
+    });
+}
   render() {
     return (
-    <div class="container" className="PanelDocumentos">
+    <div className="PanelDocumentos">
         <Row>
-            <Col s={12}><Tabs datosTabs={documentos}/></Col>
+            <Col l={8} m={8} s={12} offset="l4 m4">
+                <Pagination items={100} activePage={1} maxButtons={9} onSelect={(e)=> this.handleClickPage(e)}/>
+            </Col>
+            <Col s={12} l={12}>
+                 <CatalogoDocumentos indice={this.state.indice} maxDocs={10}/>
+            </Col>
         </Row>
     </div>
     );
