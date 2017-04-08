@@ -4,7 +4,7 @@ import CatalogoDocumentos from './CatalogoDocumentos';
 import Buscador from '../../componentes/js/Buscador.js';
 import '../css/SeccionDocumentos.css';
 import logo from '../images/logoCefi.svg';
-import menuTags from '../images/curva_menu.svg';
+import menuTags from '../images/curva_tags.svg';
 class SeccionDocumentos extends Component {
  constructor(props) {
     super(props);
