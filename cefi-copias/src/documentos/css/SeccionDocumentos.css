@@ -1,0 +1,123 @@
+@media (min-width: 640px) {
+.Visible {
+    opacity: 1;
+    z-index: 14;
+}
+.PanelDocumentos .StyleBarraBusqueda{
+    all: inherit;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    opacity:1;
+    background: white;
+    z-index: 13;
+    width: 100%;
+    top:0px;
+    left:0px;
+
+}
+
+.logo img{
+    all: inherit;
+    position: absolute;
+    width:6.5%;
+    left: 8%;
+    top:0%;
+    z-index: 13;
+
+}
+.StyleMenuTags{
+    all: initial;
+    position: fixed;
+    top:11%;
+    width: 100%;
+    left:0%;
+    z-index:11;
+    -webkit-transition: top 0.5s; /* Safari */
+    transition: top 0.5s;
+    opacity:1;
+    /*margin-bottom:100px;*/
+    /*display: inline-block;*/
+    /*float: none;*/
+}
+
+
+.StyleListaTags {
+    all: inherit;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    height:6%;
+    top:9%;
+    z-index:12;
+    background: #efebe9;
+    color:#efebe9;
+     -webkit-transition: height 1s; /* Safari */
+    transition: height 1s;
+    opacity: 0;
+
+}
+
+.StyleListaTags:hover{
+    all: inherit;
+    position: fixed;
+    top:12%;
+    height:50%;
+    -webkit-transition: height 0.5s; /* Safari */
+    transition: height 0.5s;
+    z-index:18;
+    background: #efebe9;
+    overflow: scroll;
+    
+}
+
+.StyleCatalogoDocumentos{
+    all: inherit;
+    display: block;
+    position: absolute;
+    background: #4fc3f7;
+  background: -webkit-linear-gradient(left top, #4fc3f7, gray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4fc3f7, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4fc3f7, gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4fc3f7,yellow); /* Standard syntax */
+    left:0%;
+    top:10%;
+    z-index: 10;
+}
+}
+@media only screen and (max-width: 500px) {
+.logo img{
+    all: inherit;
+    position: absolute;
+    -webkit-filter: drop-shadow( 7px -2px 7px white);
+    width:20%;
+    left: 16%;
+    top:0px;
+    z-index: 13;
+
+}
+.PanelDocumentos .StyleBuscador{
+     all: inherit;
+    position: fixed;
+    overflow: hidden;
+    opacity:1;
+    background: white;
+    z-index: 11;
+
+}
+.StyleListaTags{
+    all: inherit;
+    -webkit-filter: drop-shadow( 7px -2px 7px white);
+    width: 100%;
+    height: 100%;
+}
+
+.StyleMenuTags{
+    position: fixed;
+    height:100%;
+    width: 100%;
+    top:50%; 
+    z-index:999;  
+}
+}
+

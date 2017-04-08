@@ -7,7 +7,6 @@ class TabsComponente extends Component {
       <Tabs className='tab-demo z-depth-1'>
         {this.props.arrayTabs}>
       </Tabs>
-
     );
   }
 }

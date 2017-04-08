@@ -1,0 +1,8 @@
+.StyleBuscador {
+    all:inherit;
+    width: 100%;
+}
+.StyleResultado {
+    all:inherit;
+    display: none;
+}
