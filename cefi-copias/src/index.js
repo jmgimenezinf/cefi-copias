@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import MenuCliente from './menues/js/MenuCliente';
-import PanelDocumentos from './documentos/js/SeccionDocumentos';
+import SeccionDocumentos from './documentos/js/SeccionDocumentos';
 
-//ReactDOM.render(
-//  <MenuCliente/>,
- // document.getElementById('menu')
-//);
 ReactDOM.render(
-  <PanelDocumentos/>,
-  document.getElementById('contenido_menu')
+  <SeccionDocumentos/>,
+  document.getElementById('contenido')
 );
