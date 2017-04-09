@@ -1,8 +1,15 @@
 .StyleBuscador {
     all:inherit;
     width: 100%;
+      z-index: 20;
+
 }
 .StyleResultado {
     all:inherit;
-    display: none;
+    /*display: none;*/
+    z-index: 20;
+    position: fixed;
+    width: 25%;
+    top: 10%;
+    background:white;
 }

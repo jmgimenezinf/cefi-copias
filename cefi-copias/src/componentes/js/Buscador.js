@@ -20,12 +20,14 @@ handleSearch(e){
             <Col l={12} m={12} s={12}>
                <Input type="text" s={12} label="" validate onChange={(e)=> this.handleSearch(e)}><Icon>search</Icon></Input>
             </Col>
-            <div className="StyleResultado">
+            
                     <Col className="z-depth-2" l={12} m={12} s={12}>
+                    <div className="StyleResultado">
                       <a href=""><h6>{this.state.texto}</h6></a>
                       <a href=""><h6>{this.state.texto}</h6></a>
+                    </div>
                     </Col>
-            </div>
+            
     </div>
     
     );
