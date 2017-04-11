@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import SeccionDocumentos from './documentos/js/SeccionDocumentos';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <SeccionDocumentos/>,
+  document.getElementById('contenido')
 );

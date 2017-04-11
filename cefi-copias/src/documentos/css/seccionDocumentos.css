@@ -1,0 +1,105 @@
+@media (min-width: 640px) {
+
+.PanelDocumentos .StyleBarraBusqueda{
+    all: inherit;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    opacity:1;
+    background: white;
+    z-index: 13;
+    width: 100%;
+    top:0px;
+    left:0px;
+
+}
+
+.logo img{
+    all: inherit;
+    position: absolute;
+    width:6.5%;
+    left: 8%;
+    top:0%;
+    z-index: 13;
+
+}
+
+.StyleCatalogoDocumentos{
+    all: inherit;
+    display: block;
+    position: absolute;
+    background: #4fc3f7;
+    background: -webkit-linear-gradient(left top, #4fc3f7, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #4fc3f7, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #4fc3f7, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #4fc3f7,black); /* Standard syntax */
+    left:0%;
+    top:10%;
+    z-index: 10;
+    height: 100%;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.logo img{
+    all: inherit;
+    position: absolute;
+    -webkit-filter: drop-shadow( 7px -2px 7px white);
+    width:20%;
+    left: 16%;
+    top:0px;
+    z-index: 13;
+
+}
+.PanelDocumentos .StyleBuscador{
+     all: inherit;
+    position: fixed;
+    overflow: hidden;
+    opacity:1;
+    background: white;
+    z-index: 11;
+
+}
+}
+
+@media (min-width: 1300px) {
+
+.PanelDocumentos .StyleBarraBusqueda{
+    all: inherit;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    opacity:1;
+    background: white;
+    z-index: 13;
+    width: 100%;
+    top:0px;
+    left:0px;
+
+}
+
+.logo img{
+    all: inherit;
+    position: absolute;
+    width:5%;
+    left: 6%;
+    top:0%;
+    z-index: 13;
+
+}
+
+.StyleCatalogoDocumentos{
+    all: inherit;
+    display: block;
+    position: absolute;
+    background: #4fc3f7;
+    background: -webkit-linear-gradient(left top, #4fc3f7, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #4fc3f7, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #4fc3f7, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #4fc3f7,black); /* Standard syntax */
+    left:0%;
+    top:10%;
+    z-index: 10;
+    height: 100%;
+}
+}
