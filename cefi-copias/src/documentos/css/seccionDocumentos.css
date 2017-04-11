@@ -23,54 +23,6 @@
     z-index: 13;
 
 }
-.StyleMenuTags{
-    all: initial;
-    position: fixed;
-    top:11.5%;
-    width: 100%;
-    left:0%;
-    z-index:11;
-    -webkit-transition: top 0.5s; /* Safari */
-    transition: top 0.5s;
-    opacity:1;
-    /*margin-bottom:100px;*/
-    /*display: inline-block;*/
-    /*float: none;*/
-}
-
-
-.StyleListaTags {
-    all: inherit;
-    overflow: hidden;
-    display: block;
-    position: fixed;
-    height:3%;
-    width: 5%;
-    left: 47%;
-    top:13%;
-    z-index:13;
-    background: #efebe9;
-    color:#efebe9;
-     -webkit-transition: height 1s; /* Safari */
-    transition: height 1s;
-    opacity: 0;
-
-}
-
-.StyleListaTags:hover{
-    all: inherit;
-    position: fixed;
-    top:11.5%;
-    width:100%;
-    left:0%;
-    height:50%;
-    -webkit-transition: height 0.5s; /* Safari */
-    transition: height 0.5s;
-    z-index:18;
-    background: #efebe9;
-    overflow-y: scroll;
-    
-}
 
 .StyleCatalogoDocumentos{
     all: inherit;
@@ -108,20 +60,6 @@
     z-index: 11;
 
 }
-.StyleListaTags{
-    all: inherit;
-    -webkit-filter: drop-shadow( 7px -2px 7px white);
-    width: 100%;
-    height: 100%;
-}
-
-.StyleMenuTags{
-    position: fixed;
-    height:100%;
-    width: 100%;
-    top:50%; 
-    z-index:999;  
-}
 }
 
 @media (min-width: 1300px) {
@@ -148,54 +86,6 @@
     top:0%;
     z-index: 13;
 
-}
-.StyleMenuTags{
-    all: initial;
-    position: fixed;
-    top:11.5%;
-    width: 100%;
-    left:0%;
-    z-index:11;
-    -webkit-transition: top 0.5s; /* Safari */
-    transition: top 0.5s;
-    opacity:1;
-    /*margin-bottom:100px;*/
-    /*display: inline-block;*/
-    /*float: none;*/
-}
-
-
-.StyleListaTags {
-    all: inherit;
-    overflow: hidden;
-    display: block;
-    position: fixed;
-    height:3%;
-    width: 5%;
-    left: 47%;
-    top:13%;
-    z-index:13;
-    background: #efebe9;
-    color:#efebe9;
-     -webkit-transition: height 1s; /* Safari */
-    transition: height 1s;
-    opacity: 0;
-
-}
-
-.StyleListaTags:hover{
-    all: inherit;
-    position: fixed;
-    top:11.5%;
-    width:100%;
-    left:0%;
-    height:50%;
-    -webkit-transition: height 0.5s; /* Safari */
-    transition: height 0.5s;
-    z-index:18;
-    background: #efebe9;
-    overflow-y: scroll;
-    
 }
 
 .StyleCatalogoDocumentos{

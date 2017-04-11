@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {Row,Col,Pagination,Button} from 'react-materialize';
 import CatalogoDocumentos from './CatalogoDocumentos';
-import Buscador from '../../componentes/js/Buscador.js';
+import Buscador from '../../componentes/js/Buscador';
 import '../css/seccionDocumentos.css';
 import logo from '../images/logoCefi.svg';
-import menuTags from '../images/curva_tags.svg';
+import Enlaces from './Enlaces';
 
 class SeccionDocumentos extends Component {
  constructor(props) {
@@ -12,7 +12,6 @@ class SeccionDocumentos extends Component {
     this.state = {indice:1};
   }
 handleClickPage(e){
- console.log(e);
  this.setState({
       indice:e
     });
@@ -41,15 +40,7 @@ handleClickPage(e){
             </Col>
         </Row>
         <Row>
-            <Col l={12} m={12} s={12}>
-                <div className='StyleListaTags'>
-                    <a>inteligencia artificial</a><br></br>
-                    <a>angela 2.0</a><br></br><a>redes y transmision de datos</a><br></br>
-                </div>
-                <div className="StyleMenuTags">
-                     <a href="#" class="center"><img src={menuTags}/></a>
-                </div>
-            </Col>
+               <Enlaces/>
         </Row>
         <Row>
             <Col s={12} l={12}>
