@@ -23,12 +23,21 @@
     left: 47%;
     top:13%;
     z-index:13;
-    background: #efebe9;
-    color:#efebe9;
+    background: #e9ebee;
+    color:#e9ebee;
      -webkit-transition: height 1s; /* Safari */
     transition: height 1s;
     opacity: 0;
 
+}
+.PanelDocumentos .StyleEnlaces .StyleTags{
+    all:inherit;
+}
+.PanelDocumentos .StyleEnlaces .StyleAutores{
+    all:inherit;
+}
+.PanelDocumentos .StyleEnlaces .StyleTitulos{
+    all:inherit;
 }
 
 .PanelDocumentos .StyleEnlaces:hover{
@@ -37,11 +46,11 @@
     top:11.5%;
     width:100%;
     left:0%;
-    height:50%;
+    height:30%;
     -webkit-transition: height 0.5s; /* Safari */
     transition: height 0.5s;
     z-index:18;
-    background: #efebe9;
+    background: #e9ebee;
     overflow-y: scroll;
     
 }
@@ -73,8 +82,8 @@
     left: 47%;
     top:13%;
     z-index:13;
-    background: #efebe9;
-    color:#efebe9;
+    background: #e9ebee;
+    color:#e9ebee;
      -webkit-transition: height 1s; /* Safari */
     transition: height 1s;
     opacity: 0;
@@ -91,7 +100,7 @@
     -webkit-transition: height 0.5s; /* Safari */
     transition: height 0.5s;
     z-index:18;
-    background: #efebe9;
+    background: #e9ebee;
     overflow-y: scroll;
     
 }
@@ -121,8 +130,8 @@
     left: 47%;
     top:13%;
     z-index:13;
-    background: #efebe9;
-    color:#efebe9;
+    background: #e9ebee;
+    color:#e9ebee;
      -webkit-transition: height 1s; /* Safari */
     transition: height 1s;
     opacity: 0;
@@ -139,7 +148,7 @@
     -webkit-transition: height 0.5s; /* Safari */
     transition: height 0.5s;
     z-index:18;
-    background: #efebe9;
+    background: #e9ebee;
     overflow-y: scroll;  
 }
 }
