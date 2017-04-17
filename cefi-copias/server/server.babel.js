@@ -1,7 +1,7 @@
 import express from 'express';
 import React from 'react';
 import mysql from 'mysql';
-import tags from '../routes/Tags.js';
+import enlaces from '../routes/Enlaces.js';
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.use(express.static('../build'));
 //** 
 
 //** Levantar todos los routes (uno por uno)
-app.use(tags);
+app.use(enlaces);
 //** 
 
 app.listen(3001, function () {
