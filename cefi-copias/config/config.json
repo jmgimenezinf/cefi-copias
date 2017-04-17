@@ -4,20 +4,20 @@
     "password": "mmslljn1",
     "database": "cefi-copias",
     "host": "",
-    "dialect": "mysql"
+    "dialect": ""
   },
   "test": {
     "username": "root",
     "password": "mmslljn1",
     "database": "concesionaria_test",
     "host": "",
-    "dialect": "mysql"
+    "dialect": ""
   },
   "production": {
     "username": "root",
     "password": "mmslljn1",
     "database": "concesionaria_production",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "1234"
   }
 }
