@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": "mmslljn1",
+    "password": "",
     "database": "cefi-copias",
     "host": "",
     "dialect": ""
   },
   "test": {
     "username": "root",
-    "password": "mmslljn1",
+    "password": "",
     "database": "concesionaria_test",
     "host": "",
     "dialect": ""
   },
   "production": {
     "username": "root",
-    "password": "mmslljn1",
+    "password": "1234",
     "database": "concesionaria_production",
     "host": "127.0.0.1",
-    "dialect": "1234"
+    "dialect": ""
   }
 }
