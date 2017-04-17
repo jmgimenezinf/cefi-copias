@@ -3,14 +3,14 @@
     "username": "root",
     "password": "mmslljn1",
     "database": "cefi-copias",
-    "host": "127.0.0.1",
+    "host": "",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": "mmslljn1",
     "database": "concesionaria_test",
-    "host": "127.0.0.1",
+    "host": "",
     "dialect": "mysql"
   },
   "production": {
